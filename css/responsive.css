@@ -1,0 +1,514 @@
+/* 23. Responsive Styles 
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+@media only screen and (max-width: 1920px){
+	.main-slider .carousel-inner .item figure figcaption{
+		top:36%;
+	}
+}
+@media only screen and (max-width: 1400px) {
+	.main-slider .carousel-inner .item figure figcaption{
+		top:30%;
+	}
+}
+
+@media only screen and (max-width: 991px) {
+    .top-consult-btn a {
+        display: inline-block;
+        margin-right: 15px;
+        margin-top: 5px;
+        padding: 10px;
+    }
+    .intro .main-nav ul.main-menu li.search .search-box{
+        left: -170px;
+    }
+    .intro .main-nav ul.main-menu li.search .search-box .search-form::before{
+        left: 83%;
+    }
+    .main-slider .carousel-inner .item figure figcaption{
+        padding-left: 40px;
+    }
+    .main-slider .carousel-inner .item figure figcaption .container h1{
+        font-size: 30px;
+        line-height: 45px;
+    }
+	.main-slider .carousel-inner .item figure figcaption {
+		left: 0;
+		padding: 0 100px !important;
+		right: 0;
+		top: 30%;
+		width: 100%;
+	}
+	.main-slider .carousel-inner .item figure figcaption h1{
+		width:100%;
+	}
+    .section-header p{
+        padding: 0;
+    }
+    .services .services-content .service-box {
+      margin-bottom: 30px;
+    }
+    .call-to-action h2{
+        padding: 0;
+    }
+    .testimonial .client-feedback .item p {
+      padding: 0 52px;
+    }
+    .testimonial .client-image .owl-wrapper-outer .owl-wrapper {
+      padding: 50px 0 50px 120px;
+    }
+    .why-choose-us .wcu-left {
+      padding: 0 60px;
+    }
+    .pricing-table .pricing-content .pricing-cell {
+        margin-bottom: 30px;
+    }
+    .footer-widget {
+      margin-bottom: 50px;
+    }
+    footer .footer-bottom{
+        margin-top: 0;
+    }
+    .video-wrapper {
+        position: relative;
+        padding-bottom: 56.25%; /* 16:9 */
+        padding-top: 25px;
+        height: 0;
+    }
+    .video-wrapper iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .intro .main-nav ul.main-menu li {
+        margin-right: 0;
+    }
+    .intro .main-nav ul.main-menu li.search .search-box {
+        left: -200px;
+    }
+    blockquote {
+        padding: 0 0 0 15px;
+    }
+    .widget-content.search-widget button {
+        padding: 0 10px;
+    }
+    .flickr-stream img {
+        margin-bottom: 5px;
+        width: 100%;
+    }
+    .header-top-social ul li:nth-child(5) {
+      margin-right: 0;
+    }
+    .top-consult-btn a {
+      margin-right: 0;
+    }
+}
+
+@media only screen and (max-width: 800px){
+	.main-slider .carousel-inner .item figure figcaption {
+		left: 0;
+		padding: 0 100px;
+		right: 0;
+		top: 30%;
+		width: 100%;
+	}
+	.main-slider .carousel-inner .item figure figcaption .container h1 {
+        font-size: 30px;
+        line-height: 40px;
+        margin: 0 0 25px 0;
+        width: 80%;
+    }
+	.main-slider .carousel-inner .item figure figcaption p{
+		width:75%;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+    .main-slider .carousel-inner .item figure figcaption {
+		left: 0;
+		padding: 0 100px !important;
+		right: 0;
+		top: 30%;
+		width: 100%;
+	}
+	.main-slider .carousel-inner .item figure figcaption h1{
+		width:100%;
+	}
+	.header-top-contact ul{
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .header-top-social ul{
+        text-align: center;
+    }
+    .intro .main-nav{
+        position: inherit;
+        background: #252525; 
+    }
+    .navbar-toggle {
+      background: transparent none repeat scroll 0 0;
+    }
+    .navbar-toggle .icon-bar {
+      background: #ddd none repeat scroll 0 0;
+    }
+    .intro .main-nav ul.main-menu{
+        float:left;
+        margin: 10px 0 20px 0;
+    }
+    .intro .main-nav ul.main-menu li.active a::before, .intro .main-nav ul.main-menu li.active a::after, .intro .main-nav ul.main-menu li a:hover::before, .intro .main-nav ul.main-menu li a:hover::after{
+        content:none;
+    }
+    .intro .main-nav ul.main-menu li.active a, .intro .main-nav ul.main-menu li a:hover{
+        color: #FF8724;
+    }
+    .intro .main-nav ul.main-menu li.search .search-box{
+        left:40px;
+        top:0;
+    }
+    .intro .main-nav ul.main-menu li.search .search-box .search-form::before {
+      left: -3px;
+      top: 11px;
+      transform: rotate(47deg);
+    }
+    .carousel-control {
+      height: 50px;
+      padding-top: 7px;
+      width: 50px;
+    }
+    .main-slider .carousel-inner .item figure figcaption .container h1 {
+        font-size: 30px;
+        line-height: 40px;
+        margin: 0 0 25px 0;
+        width: 80%;
+    }
+	.main-slider .carousel-inner .item figure figcaption p{
+		width:75%;
+	}
+    .main-slider .carousel-inner .item figure figcaption{
+        padding-left: 30px;
+    }
+    .services, .latest-work, .pricing-table, .our-clients, .call-to-action, .testimonial, .why-choose-us, .project-summery {
+      padding: 50px 0;
+    }
+    .services .services-content .service-box {
+      margin-bottom: 20px;
+    }
+    .call-to-action h2{
+        padding: 0;
+        font-size: 24px;
+    }
+    .testimonial .client-feedback .item p{
+        padding: 0 50px;
+    }
+    .testimonial .client-image .owl-wrapper-outer .owl-wrapper{
+        padding: 50px 0 50px 50px;
+    }
+    .why-choose-us {
+      margin: 0;
+    }
+    .why-choose-us .wcu-left {
+      padding: 0 30px 30px 30px;
+    }
+    .project-summery .col-sm-3 p.project-count, .our-clients .col-sm-3 p.project-count {
+      margin: 20px 0 10px 0;
+    }
+    .project-summery .col-sm-3{
+        margin-bottom: 50px;
+    }
+    .project-summery .col-sm-3:last-child{
+        margin-bottom: 0;
+    }
+    .pricing-table .pricing-content .pricing-cell{
+        margin-bottom: 20px;
+    }
+    .footer-widget {
+      margin-bottom: 50px;
+    }
+    footer .footer-bottom{
+        margin-top: 0;
+    }
+    .section-header p{
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .video-wrapper {
+        position: relative;
+        padding-bottom: 56.25%; /* 16:9 */
+        padding-top: 25px;
+        height: 0;
+    }
+    .video-wrapper iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+	.main-slider .carousel-inner .item figure figcaption {
+		left: 80px;
+		top: 40px;
+		padding-left:0;
+		width:100%;
+    }
+	.intro .main-nav ul.main-menu li ul.dropdown-menu{
+		background:#000;
+	}
+	.main-slider .carousel-inner .item figure figcaption {
+      left: 0px;
+      top: 15px;
+	  padding:70px !important;
+	  width:100%;
+    }
+	.intro .main-nav ul.main-menu li ul.dropdown-menu {
+		background: transparent none repeat scroll 0 0;
+		left: 0;
+		margin-left: 20px;
+		opacity: 1;
+		position: static;
+		visibility: visible;
+		border: none;
+		box-shadow: none;
+	}
+	.intro .main-nav ul li ul li ul {
+		background: transparent none repeat scroll 0 0;
+		border: 0 none;
+		box-shadow: none;
+		left: 0;
+		margin-left: 30px;
+		opacity: 1;
+		padding: 10px;
+		position: static;
+		visibility: visible;
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+    .pages-header {
+        padding: 0;
+    }
+    .header-top-contact ul{
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .header-top-contact ul li{
+        margin-right: 0;
+    }
+    .header-top-social ul{
+        text-align: center;
+    }
+    .top-consult-btn a {
+        display: inline-block;
+        margin-top: 10px;
+        padding: 10px;
+    }
+    .intro .main-nav{
+        position: inherit;
+        background: #252525; 
+    }
+    .navbar-toggle {
+      background: transparent none repeat scroll 0 0;
+    }
+    .navbar-toggle .icon-bar {
+      background: #ddd none repeat scroll 0 0;
+    }
+	.navbar-collapse.in {
+		background: #333 none repeat scroll 0 0;
+		width: 100%;
+		height:auto;
+		transition:.3s ease;
+	}
+    .intro .main-nav ul.main-menu{
+        float:left;
+        margin: 10px 0 20px 0;
+    }
+    .intro .main-nav ul.main-menu li.active a::before, .intro .main-nav ul.main-menu li.active a::after, .intro .main-nav ul.main-menu li a:hover::before, .intro .main-nav ul.main-menu li a:hover::after{
+        content:none;
+    }
+    .intro .main-nav ul.main-menu li.active a, .intro .main-nav ul.main-menu li a:hover{
+        color: #FF8724;
+    }
+    .intro .main-nav ul.main-menu li.search .search-box{
+        left:40px;
+        top:0;
+    }
+    .intro .main-nav ul.main-menu li.search .search-box .search-form::before {
+      left: -3px;
+      top: 11px;
+      transform: rotate(47deg);
+    }
+	.intro .main-nav ul.main-menu li a{
+		margin-bottom:0;
+	}
+	.sticky-wrapper.is-sticky ul.main-menu li a{
+		margin-bottom:0 !important;
+		margin-top:0;
+	}
+    .carousel-control{
+        display:none;
+    }
+    .main-slider .carousel-inner .item figure figcaption .container h1 {
+      font-size: 20px;
+      margin: 0 0 20px 0;
+      width: 100%;
+        line-height: normal;
+    }
+    .main-slider .carousel-inner .item figure figcaption {
+      left: 0px;
+      top: 15px;
+	  padding:0 !important;
+	  width:100%;
+    }
+    .main-slider .carousel-inner .item figure figcaption .container a {
+      font-size: 15px;
+      padding: 5px 10px;
+    }
+	.main-slider .carousel-inner .item figure figcaption p{
+		display:none;
+	}
+    .services, .latest-work, .pricing-table, .our-clients, .call-to-action, .testimonial, .why-choose-us, .project-summery {
+      padding: 50px 0;
+    }
+    .section-header p{
+        padding: 0;
+    }
+    .services .services-content .service-box {
+      margin-bottom: 20px;
+    }
+    .call-to-action h2{
+        padding: 0;
+        font-size: 24px;
+    }
+    .call-to-action ul li {
+      margin-bottom: 10px;
+    }
+    .latest-work .portfolio-work .controls button{
+        margin-bottom: 5px;
+    }
+    .testimonial .client-feedback .item p{
+        padding: 0 40px;
+    }
+    .testimonial .client-image .owl-wrapper-outer .owl-wrapper{
+        padding: 0;
+    }
+    .testimonial .client-image .owl-wrapper-outer .owl-wrapper .owl-item .item img{
+        height: 50px;
+        width: 50px;
+    }
+    .testimonial .client-image .owl-wrapper-outer .owl-wrapper {
+      margin-bottom: 30px;
+    }
+    .testimonial .client-image .owl-wrapper-outer .owl-wrapper .owl-item .item::before{
+        height: 50px;
+        width: 50px;
+    }
+    .testimonial .client-feedback .owl-buttons .owl-prev, .testimonial .client-feedback .owl-buttons .owl-next {
+      font-size: 19px;
+      height: 30px;
+      padding-top: 0;
+      width: 30px;
+    }
+    .testimonial .client-feedback .owl-buttons{
+        top: 60px;
+    }
+    .why-choose-us{
+        margin: 0;
+    }
+    .why-choose-us .wcu-left {
+      padding: 0 30px;
+        margin-bottom: 50px;
+    }
+    .project-summery .col-sm-3 p.project-count, .our-clients .col-sm-3 p.project-count {
+      margin: 20px 0 10px 0;
+    }
+    .project-summery .col-sm-3{
+        margin-bottom: 50px;
+    }
+    .project-summery .col-sm-3:last-child{
+        margin-bottom: 0;
+    }
+    .pricing-table .pricing-content .pricing-cell{
+        margin-bottom: 20px;
+    }
+    .footer-widget {
+      margin-bottom: 50px;
+    }
+    footer .footer-bottom{
+        margin-top: 0;
+    }
+    
+    /* About Us */
+    .section-header h2 {
+        font-size: 30px;
+    }
+    .about-information .col-sm-4 img {
+        margin-bottom: 15px;
+        width: 100%;
+    }
+    .about-services {
+        margin-top: 50px;
+    }
+    .our-story {
+        padding: 0 15px;
+        margin: 50px 0;
+    }
+    .blog-posts {
+        margin: 50px 0;
+    }
+    .post-details {
+        padding-top: 25px;
+    }
+    .post-read-more {
+        margin: 15px 0;
+    }
+    .post-meta {
+        margin-top: 15px;
+    }
+    .blog-pagination {
+        margin: 50px 0 50px;
+    }
+    .flickr-stream img {
+        margin-bottom: 5px;
+        width: 100%;
+    }
+    .blog-sidebar {
+      margin-top: 50px;
+    }
+    .contact-main {
+      margin: 0;
+    }
+    .contact-main .contact-header {
+      margin: 50px 0;
+    }
+    .single-blog {
+      margin-top: 50px;
+    }
+    .post-meta {
+      margin-top: 30px;
+      text-align: left;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

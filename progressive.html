@@ -1,0 +1,125 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Home</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="css/progress.css" media="all" type="text/css">
+    <script type="text/javascript" language="javascript" src="js/jquery-1.12.0.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            var end = new Date("7 30, 2018 00:00:00");
+            // var end = new Date ("July 20, 2017 14:43:00");
+            var now = new Date();
+
+            var m = Math.round((end - now) / 1000);
+            var day = parseInt(m / 24 / 3600);
+            var hours = parseInt((m % (3600 * 24)) / 3600);
+            var minutes = parseInt((m % 3600) / 60);
+            var seconds = m % 60;
+
+            var theDaysBox = $("#numdays");
+            var theHoursBox = $("#numhours");
+            var theMinsBox = $("#nummins");
+            var theSecsBox = $("#numsecs");
+
+            theDaysBox.html(day);
+            theHoursBox.html(hours);
+            theMinsBox.html(minutes);
+            theSecsBox.html(seconds);
+
+            var refreshId = setInterval(function () {
+                var currentSeconds = theSecsBox.text();
+                var currentMins = theMinsBox.text();
+                var currentHours = theHoursBox.text();
+                var currentDays = theDaysBox.text();
+
+                if (currentSeconds == 0 && currentMins == 0 && currentHours == 0 && currentDays == 0) {
+                    // if everything rusn out our timer is done!!
+                    // do some exciting code in here when your countdown timer finishes
+
+                } else if (currentSeconds == 0 && currentMins == 0 && currentHours == 0) {
+                    // if the seconds and minutes and hours run out we subtract 1 day
+                    theDaysBox.html(currentDays - 1);
+                    theHoursBox.html("23");
+                    theMinsBox.html("59");
+                    theSecsBox.html("59");
+                } else if (currentSeconds == 0 && currentMins == 0) {
+                    // if the seconds and minutes run out we need to subtract 1 hour
+                    theHoursBox.html(currentHours - 1);
+                    theMinsBox.html("59");
+                    theSecsBox.html("59");
+                } else if (currentSeconds == 0) {
+                    // if the seconds run out we need to subtract 1 minute
+                    theMinsBox.html(currentMins - 1);
+                    theSecsBox.html("59");
+                } else {
+                    theSecsBox.html(currentSeconds - 1);
+                }
+            }, 1000);
+        });
+    </script>
+</head>
+<body>
+<div class="wrap">
+    <h1>浙江品园网络科技有限公司</h1>
+    <div class="main">
+        <h2>网站正在施工中。。。</h2>
+        <div class="banner">
+            <img src="images/progress.png" alt=""/>
+        </div>
+        <div class="text">
+            <h3>网络工程师正在努力建设网站,&nbsp;<span>等施工完成了欢迎您的到来...!</span></h3>
+            <div class="clock-ticker" class="clearfix">
+                <div class="block">
+                    <span class="flip-top" id="numdays">8</span>
+                    <span class="flip-btm"></span>
+                    <footer class="label">Days</footer>
+                </div>
+                <div class="block">
+                    <span class="flip-top" id="numhours">14</span>
+                    <span class="flip-btm"></span>
+                    <footer class="label">Hours</footer>
+                </div>
+                <div class="block">
+                    <span class="flip-top" id="nummins">34</span>
+                    <span class="flip-btm"></span>
+                    <footer class="label">Mins</footer>
+                </div>
+                <div class="block">
+                    <span class="flip-top" id="numsecs">9</span>
+                    <span class="flip-btm"></span>
+                    <footer class="label">Secs</footer>
+                </div>
+            </div>
+            <form class="searchbox">
+                <a href="index.html">访问网站主页</a>
+            </form>
+        </div>
+        <div class="clear"></div>
+        <div class="content">
+            <div class="icons">
+                <p class="left">follow us:</p>
+                <ul class="left">
+                    <li><a href="#"><img src="images/rss.png" alt=""/></a></li>
+                    <li><a href="#"><img src="images/twt.png" alt=""/></a></li>
+                    <li><a href="#"><img src="images/plus.png" alt=""/></a></li>
+                    <li><a href="#"><img src="images/in.png" alt=""/></a></li>
+                    <li><a href="#"><img src="images/fb.png" alt=""/></a></li>
+                </ul>
+                <div class="clear"></div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>浙ICP备18025136号-1, Pinyuan All rights reserved <a href="#" title="品园网络">浙江品园网络科技有限公司 </a>
+    </div>
+</div>
+
+<div style="display:none">
+    <script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script>
+</div>
+</body>
+</html>

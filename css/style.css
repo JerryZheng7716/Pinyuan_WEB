@@ -1064,7 +1064,9 @@ header {
     font-size: 25px;
 }
 .project-summery .col-sm-3 p.project-count,
-.our-clients .col-sm-3 p.project-count {
+.our-clients .col-sm-3 p.project-count,
+.project-summery .col-sm-4 p.project-count,
+.our-clients .col-sm-4 p.project-count{
     color: #fff;
     font-family: "Roboto",sans-serif;
     font-size: 30px;
@@ -1072,7 +1074,9 @@ header {
     margin: 25px 0 15px;
 }
 .project-summery .col-sm-3 h5.project-name,
-.our-clients .col-sm-3 h5.project-name {
+.our-clients .col-sm-3 h5.project-name,
+.project-summery .col-sm-4 h5.project-name,
+.our-clients .col-sm-4 h5.project-name{
     font-size: 15px;
     color: #fff;
     font-family: "Open Sans", sans-serif;
@@ -1954,3 +1958,32 @@ hr.line {
     text-align: center;
     align-items: center;
 }
+
+.project-summery img{
+    height: 50px;
+}
+
+
+.project-summery  p.project-count,
+.our-clients  p.project-count{
+    color: #fff;
+    font-family: "Roboto",sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 25px 0 15px;
+}
+.project-summery  h5.project-name,
+.our-clients  h5.project-namee{
+    font-size: 15px;
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+}
+
+.project-summery .col-xs-3 ,
+.our-clients .col-xs-3,
+.project-summery .col-xs-6 ,
+.our-clients .col-xs-6{
+    margin: auto;
+    text-align: center;
+}
+

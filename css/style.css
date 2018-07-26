@@ -1942,3 +1942,15 @@ hr.line {
 .services-content img{
     height: 70px;
 }
+
+.about-services img{
+    height: 30px;
+    align-content: left;
+}
+
+.qiji {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+    align-items: center;
+}

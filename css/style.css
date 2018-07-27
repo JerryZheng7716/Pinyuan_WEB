@@ -2010,10 +2010,12 @@ hr.line {
 
 .pages-header-weichat {
     background: url(../images/wechat_applet/weichat-header-bg.jpg);
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    padding: 100px 0;
+}
+
+.about_summery img{
+    margin: auto;
+}
+
+.about_summery{
+    text-align: center;
 }

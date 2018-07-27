@@ -1035,7 +1035,7 @@ header {
 .project-summery,
 .our-clients {
     padding: 150px 0;
-    background: url(../images/project-summery-bg.png);
+    background: url(../images/project-summery-bg.jpg);
     background-attachment: fixed;
     -webkit-background-size: cover;
     background-size: cover;
@@ -1960,7 +1960,7 @@ hr.line {
 }
 
 .project-summery img{
-    height: 50px;
+    /*height: 50px;*/
 }
 
 
@@ -1987,3 +1987,33 @@ hr.line {
     text-align: center;
 }
 
+.weichat_case img{
+   margin-bottom: 20px;
+}
+
+.weichat_case {
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+.weichat_case h3{
+    align-content: center;
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.weichat_case p{
+    color: white;
+    font-size: medium;
+}
+
+.pages-header-weichat {
+    background: url(../images/wechat_applet/weichat-header-bg.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 100px 0;
+}

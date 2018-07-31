@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home</title>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css'/>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="js/jquery.min.js"></script>
+<!--<link href='http://fonts.useso.com/css?family=Amaranth:400,700,700italic,400italic' rel='stylesheet' type='text/css'>-->
+<!--<link href='http://fonts.useso.com/css?family=Signika+Negative:300,400,600,700|Amaranth:400,700,700italic,400italic' rel='stylesheet' type='text/css'>-->
+</head>
+<body>
+<!--header starts-->
+<div class="header">
+	 <div class="container">
+	     <div class="top-header">
+			 <div class="logo">
+				 	<a href="index.html"><img src="images/logo.png" alt="" /></a>
+			 </div>
+			 <div class="top-menu">
+				<span class="menu"> </span>
+				<ul>
+					 <li class="active"><span class="pic1"></span><a href="index.html">Home</a></li>
+					 <li><span class="pic2"></span><a href="about.html">About Us</a></li>
+					 <li><span class="pic3"></span><a href="service.html">Services</a></li>
+					 <li><span class="pic4"></span><a href="contact.html">Contact Us</a></li>
+						<div class="clearfix"></div>
+				 </ul>
+				  <!--script-nav-->
+				 <script>
+				 $("span.menu").click(function(){
+				 $(".top-menu ul").slideToggle("slow" , function(){
+				 });
+				 });
+				 </script>
+				 <!--script-nav-->
+			 </div>
+			 <div class="clearfix"></div>
+		  </div>
+	 </div>
+	      <div class="header-banner">
+		     <script src="js/responsiveslides.min.js"></script>
+		     <script>
+			 $(function () {
+			  $("#slider").responsiveSlides({
+				auto: true,
+				nav: true,
+				speed: 500,
+				namespace: "callbacks",
+				pager: true,
+			  });
+			 });
+			 </script>
+			  <div class="container2">
+				 <div class="slider">
+				     <div class="callbacks_container">
+						 <ul class="rslides" id="slider">
+						 <li>
+							<div class="sale-box">
+							<span class="on_sale title_shop">NEW</span>
+							</div>
+						  <img src="images/bnr1.jpg" alt="">
+						  <div class="caption">
+							<h1>Minto</h1>
+							<p>Lorem ipsum dolor elit has been the industry's standard dummy text.</p>	          	
+						  </div>
+						   </li>
+						 <li>
+						 <div class="sale-box">
+							<span class="on_sale title_shop">NEW</span>
+							</div>
+						  <img src="images/bnr2.jpg" alt="">
+							 <div class="caption">
+							 <h1>Lorem</h1>
+							<p>Lorem ipsum dolor elit has been the industry's standard dummy text.</p>	
+							 </div>
+						 </li>
+						 <li>
+						 <div class="sale-box">
+							<span class="on_sale title_shop">NEW</span>
+							</div>
+						  <img src="images/bnr3.jpg" alt="">
+						  <div class="caption">
+							 <h1>Amarture</h1>
+							 <p>Lorem ipsum dolor elit has been the industry's standard dummy text.</p>		          	
+						  </div>
+						 </li>
+						  </ul>
+							</div>
+					 </div>
+			     </div>	
+			 </div>	
+</div>
+<!--header ends-->
+<div class="container">
+	 <div class="banner-content">
+	 <p><span>Lorem ipsum dolor sit amet, </span>consectetur adipisicing elit, sed do eiusmod quis nostrud exercitation ullamco laboris nisi ut aliquip tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+	 ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+	 </div>
+</div>
+<!--content-->
+<div class="content">
+	 <div class="container">
+	 <div class="col-md-5 contact-img">
+	 <img src="images/contact.jpg" alt=""/>
+	 </div>
+	 <div class="col-md-7 contact-info">
+	 <h3>Lorem ipsum dolor sit amet</h3>
+	 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+		Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, 
+		sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. </p>
+		<a href="#">Read more<span></span></a>
+	 </div>
+	 <div class="clearfix"></div>
+	 </div>
+</div>
+<!--content/-->
+<div class="featured">
+	 <div class="container">
+		 <h3><span>Where </span>We Have Been Featured</h3>
+		 <div class="line"></div>
+			<div class="clearfix"></div>
+	 </div>
+</div>
+<!---->
+<div class="brands">
+	 <div class="container">
+	 <ul class="brand-list">
+		 <li><a href="#"><img src="images/s1.png" alt=""></a></li>
+		 <li><a href="#"><img src="images/s2.png" alt=""></a></li>
+		 <li><a href="#"><img src="images/s3.png" alt=""></a></li>
+		 <li><a href="#"><img src="images/s4.png" alt=""></a></li>
+	 </ul>
+	 <div class="clearfix"></div>
+	 </div>
+</div>
+<!---->
+<div class="fotter">
+	 <div class="container">
+		 <p class="copyright">Copyright &copy; 2016.Company name All rights reserved.<a target="_blank" href="http://sc.chinaz.com/moban/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a></p>
+		 <div class="social-icons">
+		 <a href="#"><span class="facebook"> </span></a>
+		 <a href="#"><span class="twitter"> </span></a>
+		 </div>
+		 <div class="clearfix"></div>
+	 </div>
+</div>
+<!---->
+</body>
+</html>

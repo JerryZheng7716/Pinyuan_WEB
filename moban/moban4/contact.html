@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home</title>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css'/>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="js/jquery.min.js"></script>
+<!--<link href='http://fonts.useso.com/css?family=Amaranth:400,700,700italic,400italic' rel='stylesheet' type='text/css'>-->
+<!--<link href='http://fonts.useso.com/css?family=Signika+Negative:300,400,600,700|Amaranth:400,700,700italic,400italic' rel='stylesheet' type='text/css'>-->
+</head>
+<body>
+<!---->
+<div class="header">
+	 <div class="container">
+	     <div class="top-header">
+			 <div class="logo">
+				 	<a href="index.html"><img src="images/logo.png" alt="" /></a>
+			 </div>
+			 <div class="top-menu">
+				<span class="menu"> </span>
+				<ul>
+					 <li><span class="pic1"></span><a href="index.html">Home</a></li>
+					 <li><span class="pic2"></span><a href="about.html">About Us</a></li>
+					 <li><span class="pic3"></span><a href="service.html">Services</a></li>
+					 <li class="active"><span class="pic4"></span><a href="contact.html">Contact Us</a></li>
+						<div class="clearfix"></div>
+				 </ul>
+				 <!--script-nav-->
+				 <script>
+				 $("span.menu").click(function(){
+				 $(".top-menu ul").slideToggle("slow" , function(){
+				 });
+				 });
+				 </script>
+				 <!--script-nav-->
+			 </div>
+		  </div>
+	 </div>
+</div>
+<!---->
+<div class="contact-section-page">
+	   <div class="contact_top">					
+		   <div class="container">
+			  <div class="col-md-6 contact_left">
+			 		<h2>Contact Form</h2>
+			 		<p>Lorem ipsum dolor sit amet, adipiscing elit. Donec tincidunt dolor et tristique bibendum. Aenean sollicitudin vitae dolor ut posuere.</p>
+				  <form>
+					 <div class="form_details">
+						   <input type="text" class="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}">
+						   <input type="text" class="text" value="Email Address" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email Address';}">
+							<input type="text" class="text" value="Subject" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Subject';}">
+							<textarea value="Message" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}">Message</textarea>
+							<div class="clearfix"> </div>					   
+							<input name="submit" type="submit" value="Send message">
+					 </div>					 
+				  </form>
+			 </div>
+			 <div class="col-md-6 company-right">
+					<div class="contact-map">
+				    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1578265.0941403757!2d-98.9828708842255!3d39.41170802696131!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54eab584e432360b%3A0x1c3bb99243deb742!2sUnited+States!5e0!3m2!1sen!2sin!4v1407515822047"> </iframe>
+				    </div>      
+				 <div class="company-right">
+					   <div class="company_ad">
+							<h3>Contact Info</h3>
+							<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit velit justo.</span>
+			      			<address>
+								<p>email:<a href="mail-to: info@example.com">info@display.com</a></p>
+								 <p>phone:  +255 55 55 777</p>
+								<p>28-7-169, 2nd Ave South</p>
+								<p>Saskabush, SK   S7M 1T6</p>									 	 	
+							</address>
+					  </div>
+				 </div>							
+			 </div>
+		  </div>
+	 </div>
+</div>
+<!---->
+<div class="featured">
+	 <div class="container">
+		 <h3><span>Where </span>We Have Been Featured</h3>
+		 <div class="line"></div>
+			<div class="clearfix"></div>
+	 </div>
+</div>
+<!---->
+<div class="brands">
+	 <div class="container">
+	 <ul class="brand-list">
+		 <li><a href="#"><img src="images/s1.png" alt=""></a></li>
+		 <li><a href="#"><img src="images/s2.png" alt=""></a></li>
+		 <li><a href="#"><img src="images/s3.png" alt=""></a></li>
+		 <li><a href="#"><img src="images/s4.png" alt=""></a></li>
+	 </ul>
+	 </div>
+</div>
+<!---->
+<div class="fotter">
+	 <div class="container">
+		 <p class="copyright">Copyright &copy; 2016.Company name All rights reserved.<a target="_blank" href="http://sc.chinaz.com/moban/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a></p>
+		 <div class="social-icons">
+		 <a href="#"><span class="facebook"> </span></a>
+		 <a href="#"><span class="twitter"> </span></a>
+		 </div>
+		 <div class="clearfix"></div>
+	 </div>
+</div>
+<!---->
+</body>
+</html>

@@ -2699,3 +2699,51 @@ hr.line {
 .section-moban .moban{
     margin-bottom: 30px
 }
+
+.section-movie{
+    padding: 200px 0;
+    background: url(../images/movie_ad/project-bg.jpg);
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.quyu h4{
+    margin: 0px;
+    color: black;
+}
+
+.quyu p{
+    margin-bottom: 30px;
+    color: #2E2E2E;
+}
+
+.section-app-ad h2,.section-app-ad p{
+    color: white;
+}
+
+.section-app-ad{
+    padding: 70px 0;
+}
+
+.about-services p{
+    color: #2E2E2E;
+}
+
+.section-pad p{
+    color: black;
+}
+
+.section-pad {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.section-friend{
+    background: url(../images/slider/slider03.jpg);
+}
